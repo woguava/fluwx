@@ -34,7 +34,7 @@
             android:exported="true"
             android:launchMode="singleTop"
             android:targetActivity="com.jarvan.fluwx.wxapi.WXPayEntryActivity"
-            android:theme="@style/DisablePreviewTheme"> -->
+            android:theme="@style/DisablePreviewTheme">
 
 
             <intent-filter>
@@ -42,6 +42,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:scheme="sdksample" />
             </intent-filter>
-        </activity-alias>
+        </activity-alias> -->
     </application>
 </manifest>
