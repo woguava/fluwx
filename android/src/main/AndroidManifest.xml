@@ -10,10 +10,10 @@
             android:name=".wxapi.WXEntryActivity"
             android:launchMode="singleTop"
             android:theme="@style/DisablePreviewTheme" />
-        <activity
+        <!-- <activity
             android:name=".wxapi.WXPayEntryActivity"
             android:launchMode="singleTop"
-            android:theme="@style/DisablePreviewTheme" />
+            android:theme="@style/DisablePreviewTheme" /> -->
 
         <activity-alias
             android:name="${applicationId}.wxapi.WXEntryActivity"
@@ -29,12 +29,12 @@
                 <data android:scheme="sdksample" />
             </intent-filter>
         </activity-alias>
-        <activity-alias
+        <!-- <activity-alias
             android:name="${applicationId}.wxapi.WXPayEntryActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:targetActivity="com.jarvan.fluwx.wxapi.WXPayEntryActivity"
-            android:theme="@style/DisablePreviewTheme">
+            android:theme="@style/DisablePreviewTheme"> -->
 
 
             <intent-filter>
